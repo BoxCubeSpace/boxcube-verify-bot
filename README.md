@@ -1,0 +1,1 @@
+# boxcube-verify-bot
