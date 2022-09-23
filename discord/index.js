@@ -110,7 +110,7 @@ client.on("interactionCreate", async (interaction) => {
     const linkRow = new MessageActionRow().addComponents(
       new MessageButton()
         .setURL(
-          "http://localhost:3000/" + uniqueStr + "/" + interaction.user.id
+          "https://boxcube-verify-bot-near.vercel.app/" + uniqueStr + "/" + interaction.user.id
         )
         .setLabel("Verify your NFT")
         .setStyle("LINK")
@@ -125,5 +125,5 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 client.login(
-  "OTkyNDY4MDE2MzM4MDQyOTAw.GdwkwK._Le1jpaoWitFek4F316XLUcBx5CgVTruPefBRc"
+  process.env.TOKEN
 );
