@@ -1,3 +1,3 @@
 TOKEN=OTkyNDY4MDE2MzM4MDQyOTAw.GdwkwK._Le1jpaoWitFek4F316XLUcBx5CgVTruPefBRc
-APP_URL=http://localhost:3000/
+APP_URL=https://boxcube-verify-bot-near.vercel.app/
 CHANNEL_NAME=general
